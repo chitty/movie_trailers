@@ -63,4 +63,6 @@ toy_story = media.Movie("Toy Story",
 movies = [avatar, blow, city_of_god, motorcycle_diaries, frozen,
           life_is_beautiful, midnight_in_paris, nine_queens, toy_story]
 
+# Uses the list of movie instances created in this file as input to
+# generate an HTML file and open it in the browser.
 fresh_tomatoes.open_movies_page(movies)
